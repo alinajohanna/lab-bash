@@ -1,0 +1,29 @@
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ echo "Hello World"
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ mkdir new_dir
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ rm -rf new_dir
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ cp lorem/sed.txt lorem-copy/sed.txt
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ cd lorem
+(base) mariuss-MacBook:lorem alinaaufenanger$ cat at.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ head -3 sed.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ echo "Homo homini lupus" >> sed.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ tail -3 sed.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ sed -i 's/et/ET/g' at.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ cat at.txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ whoami
+(base) mariuss-MacBook:lorem alinaaufenanger$ pwd
+(base) mariuss-MacBook:lorem alinaaufenanger$ ls *txt
+(base) mariuss-MacBook:lorem alinaaufenanger$ cat sed.txt | wc -l
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ ls -d lorem* | wc -l
+
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ read
+Alina
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ echo $REPLY
+Alina
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ mkdir $REPLY
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ ls
+Alina		inputs		lorem-copy	readme.md
+exercices	lorem		outputs		solution.txt
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ rm -rf $REPLY
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ ls
+exercices	lorem		outputs		solution.txt
+inputs		lorem-copy	readme.md
