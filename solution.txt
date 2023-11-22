@@ -13,7 +13,7 @@
 (base) mariuss-MacBook:lorem alinaaufenanger$ pwd
 (base) mariuss-MacBook:lorem alinaaufenanger$ ls *txt
 (base) mariuss-MacBook:lorem alinaaufenanger$ cat sed.txt | wc -l
-(base) mariuss-MacBook:lab-bash alinaaufenanger$ ls -d lorem* | wc -l
+(base) mariuss-MacBook:lab-bash alinaaufenanger$ ls -d */lorem* | wc -l
 
 (base) mariuss-MacBook:lab-bash alinaaufenanger$ read
 Alina
